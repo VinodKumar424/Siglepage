@@ -1,0 +1,159 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* / --------------- Sidebar --------------- / */
+.sidebar{
+    background-color:blueviolet;
+    float: left;
+    width: 300px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    box-shadow: 0 0 15px black;
+}
+.sidebar img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 10px solid burlywood;
+    box-shadow: 0 0 15px black;
+    margin-top: 100px;
+}
+.sidebar a{
+    display: block;
+    text-decoration: none;
+    color:blanchedalmond;
+    padding: 15px 25px;
+    font-size: 18px;
+}
+.sidebar a:hover{
+    color: white;
+}
+
+/* / ------------- About Section --------------- / */
+#about-section{
+    margin-left: 300px;
+    padding: 20px;
+}
+#about-section h1{
+    font-family:'Fjalla One', sans-serif;
+    font-size: 80px;
+    margin: 120px 0 0 0;
+}
+#fname{
+    color: #382828;
+    text-shadow: 0 0 5px black;
+}
+#lname{
+    color: black;
+    text-shadow: 0 0 5px black;
+}
+#about-section h2{
+    font-family: 'Nunito', sans-serif;
+    font-size: 35px;
+    margin-top: 0;
+}
+#about-section p{
+    font-size: 25px;
+    color: gray;
+    margin-bottom: 110px;
+}
+
+/* / -------------- Education Section ---------- / */
+#Education-section{
+    margin-left: 300px;
+    padding: 20px;
+}
+.Education-article{
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 0 0 15px #00c851;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.Education-article:hover{ 
+     transform: perspective(400px) rotateX(20deg); 
+ } 
+.Education-article h2{
+    font-family: 'Lobster', cursive;
+    color: #00c851;
+}
+.Education-article p{
+    font-size: 18px;
+    color: gray;
+}
+/* / ---------------- Skills SEction ------------- / */
+#Skills-section{
+    margin-left: 300px;
+    padding: 20px;
+}
+#Skills-text{
+    font-size: 18px;
+    color: gray;
+    margin-bottom: 50px;
+}
+.Skills-article{
+    padding: 10px;
+    box-shadow: 0 0 15px #00c851;
+    border-radius: 10px;
+    width: 200px;
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    transition: all 0.5s;
+}
+.Skills-article p{
+    font-size: 18px;
+}
+/* .Skills-article:hover{
+    background-color: #00c851;
+    color: white;
+    transform: perspective(400px) translateY(-20px);
+} */
+#Hobbies-section{
+ margin-left: 300px;
+ padding: 20px;   
+}
+.Hobbies-article p{
+font-size: 20px;
+color: cadetblue;
+}
+.Hobbies-article h1{
+font-size: 20px;
+color: chartreuse;
+}
+.Hobbies-article{
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 0 0 15px #00c851;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+/* experience */
+#Experience-section{
+    margin-left: 300px;
+    padding: 20px;   
+   }
+   .Experience-article p{
+   font-size: 20px;
+   color: cadetblue;
+   }
+   .Experience-article h1{
+   font-size: 20px;
+   color: chartreuse;
+   }
+   .Hobbies-article{
+       margin: 20px;
+       padding: 10px;
+       box-shadow: 0 0 15px #00c851;
+       border-radius: 10px;
+       transition: all 0.5s;
+   }
